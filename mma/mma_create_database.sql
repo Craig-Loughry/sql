@@ -26,3 +26,4 @@ INSERT INTO Product VALUES
 (16,'D#','Murach\'s D#','36.70'),
 (17,'E#','Murach\'s E#','40.40'),
 (20,'test','test','10.00');
+
