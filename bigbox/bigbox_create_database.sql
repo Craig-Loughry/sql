@@ -74,3 +74,10 @@ INSERT INTO StoreSales (StoreID, Date, Sales) VALUES
 -- and a.id = b.InvoiceId
 -- and b.ProductID = c.Id
 -- group by a.ID" 
+
+-- exampleSELECT DivisionNumber, sum(storesales.Sales)
+ -- FROM division, store, storesales
+-- WHERE DivisionNumber = '001'
+ -- and Division.id = store.DivisionID
+ -- and store.id = storesales.storeid
+ ;
